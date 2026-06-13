@@ -105,3 +105,13 @@ plt.show()
 
 # Export expense data to CSV
 category_expense.to_csv("expense_summary.csv")
+
+#create app.py for streamlit
+import streamlit as st
+import pandas as pd
+
+st.title("Personal Finance Tracker")
+
+df = pd.read_csv("expense_summary.csv")
+
+st.write(df)
