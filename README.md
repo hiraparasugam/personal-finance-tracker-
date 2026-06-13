@@ -43,9 +43,9 @@ The application analyzes bank statement CSV files, categorizes transactions auto
 
 ---
 
-## Project Screenshots
+## Live Link
 
-*Add screenshots here after deployment.*
+https://strackfinance.streamlit.app/
 
 ---
 
